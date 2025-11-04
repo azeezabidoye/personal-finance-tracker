@@ -1,16 +1,67 @@
-# React + Vite
+# 💰 Personal Finance Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **Personal Finance Tracker** built with **React**, **Vite**, and **TailwindCSS**.  
+It allows users to track their income, expenses, and overall balance — complete with visual charts, filters, and CSV export functionality.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+### 🧾 Core Functionalities
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Add, edit, and delete transactions** with details like type, amount, date, category, and notes.
+- **Categorize income and expenses** under default or custom categories.
+- **Real-time calculations** for:
+  - Total income
+  - Total expenses
+  - Net balance
 
-## Expanding the ESLint configuration
+### 📊 Visual Analytics
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Line Chart** comparing income vs. expenses over time.
+- **Pie Chart** displaying spending distribution by category.
+- Interactive tooltips and responsive chart layouts using **Recharts**.
+
+### ⚙️ Utilities
+
+- **Filter and sort** transactions by type, category, or amount.
+- **Export data to CSV** for backup or analysis.
+- **Dynamic modals** for adding/editing transactions and managing categories.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend Framework:** React (Vite)
+- **Styling:** TailwindCSS
+- **Icons:** Lucide React
+- **Charts:** Recharts
+- **Data Storage:** Local (browser-based) with optional storage APIs
+
+---
+
+## ⚙️ Setup Instructions
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/azeezabidoye/personal-finance-tracker.git
+   cd personal-finance-tracker
+   ```
+2. **Install dependencies**
+
+```bash
+npm install
+```
+
+3. **Run development server**
+
+```bash
+npm run dev
+```
+
+4. **Visit the app webpage**
+   Open your browser and go to:
+
+```arduino
+http://localhost:5174/
+```
